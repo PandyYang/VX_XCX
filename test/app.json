@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/basic/basic",
+    "pages/swiper/swiper",
+    "pages/scrollView/scrollView",
+    "pages/movable/movable",
+    "pages/view/view",
+    "pages/index/index"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

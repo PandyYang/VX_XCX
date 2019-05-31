@@ -1,0 +1,36 @@
+<!--scroll-top="250" 与 scroll-into-view 冲突-->
+<scroll-view scroll-y="true"
+style='height:300rpx'
+bindscrolltoupper="scrolltoupper"
+bindscrolltolower="scrolltolower"
+upper-threshold="0"
+lower-threshold="0"
+
+enable-back-to-top="true"
+bindscroll="scroll"
+scroll-into-view="c"
+
+>
+
+    <view id="a" class='a size'>a</view>
+    <view id="b" class='b size'>b</view>
+    <view id="c" class='c size'>c</view>
+    <view id="d" class='d size'>d</view>
+    <view id="e" class='e size'>e</view>
+
+</scroll-view>
+
+<scroll-view scroll-x="true
+class='container'
+style='margin-top:250rpx;'
+scroll-left="150"
+>
+
+
+    <view id="a" class='a size'>a</view>
+    <view id="b" class='b size'>b</view>
+    <view id="c" class='c size'>c</view>
+    <view id="d" class='d size'>d</view>
+    <view id="e" class='e size'>e</view>
+
+</scroll-view>
