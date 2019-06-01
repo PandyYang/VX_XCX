@@ -1,0 +1,6 @@
+<input value="学习小程序" maxlength='10'></input>
+<input value="number" type='number'></input>
+<input value="idcard" type='idcard'></input>
+<input value="digit" type='digit'></input>
+密码框:<input value="" password="{{true}}"></input>
+<input value="" placeholder='请输入你的用户名' placeholder-style='color:green' placeholder-class='placeholder'></input><input value="" placeholder='请输入你的用户名'placeholder-class='placeholder'></input>

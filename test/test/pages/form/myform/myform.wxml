@@ -1,0 +1,16 @@
+<form bindsubmit='formSubmit' bindreset='formReset'>
+<checkbox-group bindchange="changed">
+    <checkbox value='v中国'>中国</checkbox>
+    <checkbox value='v俄罗斯' checked='{{true}}' color='red'>俄罗斯</checkbox>
+    <checkbox value='v乌克兰' disabled='{{true}}'>乌克兰</checkbox>
+</checkbox-group>
+
+
+<checkbox-group>
+    <label wx:for="{{array}}">
+    <checkbox id='{{item.id}}' value='{{item.name}}' checked='{{item.checked}}' color='{{item.color}}' disabled='{{item.disabled}}'/>{{item.value}}
+  </label>
+</checkbox-group>
+<button form-type='submit'>提交</button>
+<button form-type='reset'>重置</button>
+</form>

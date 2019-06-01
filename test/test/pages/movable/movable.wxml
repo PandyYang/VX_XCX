@@ -1,0 +1,21 @@
+<movable-area class="father-size">
+
+    <movable-view class="a size"
+    direction="all"
+    inertia="true"
+    out-of-bounds="true"
+    x="50"
+    y="100"
+    damping="50"
+    friction="20"
+    scale="true"
+    scale-min="0.5"
+    scale-max="10"
+    bindchange="dochange"
+    >
+    
+    
+    </movable-view>
+
+
+</movable-area>
